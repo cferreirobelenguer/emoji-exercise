@@ -1,0 +1,12 @@
+<section class="emoji">
+    <div #title class="emoji__container">
+        <p>{{this.result}}</p>
+        <h1>Emojis</h1>
+        <p>{{this.result}}</p>
+    </div>
+    <div class="emoji__buttons">
+        <button #smileButton class="emoji__buttons--buttonstyle" (click)="handleClick('smile')">😀</button>
+        <button #cryButton class="emoji__buttons--buttonstyle" (click)="handleClick('cry')">😢</button>
+        <button #crazyButton class="emoji__buttons--buttonstyle" (click)="handleClick('crazy')">🤪</button>
+    </div>
+</section>

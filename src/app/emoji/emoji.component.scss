@@ -1,0 +1,28 @@
+.emoji {
+    display: flex;
+    flex-direction: column;
+    max-width: 700px;
+    height: auto;
+    justify-content: center;
+    align-items: center;
+    padding: 24px;
+    &__container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 16px;
+    }
+    &__buttons {
+        display: flex;
+        gap:12px;
+        align-items: center;
+        justify-content: flex-start;
+        &--buttonstyle {
+            border-radius: 20px;
+            padding: 8px;
+            border-style: none;
+            background-color: black;
+
+        }
+    }
+}
